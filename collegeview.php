@@ -69,7 +69,7 @@ while($res = mysqli_fetch_array($result)) {
 		echo "</table>";
 }
 		echo "<br/><br/>";
-		echo "<a href=\"collegeedit.php?id=$res[id]\">Edit</a>";
+		echo "<a href=\"collegeedit.php?id=$_GET[id]\">Edit</a>";
 		echo "&nbsp&nbsp&nbsp&nbsp";
 		echo "<a href=\"NRC.php\">Go back
 		<script></a>";

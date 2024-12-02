@@ -1,0 +1,117 @@
+body{
+	font-family: segoe ui;
+}
+.con{
+	margin: 1% 1% 1% 1%;
+}
+.main{
+	box-shadow:  0px 2px 5px 2px #adaead;
+	height: 100%;
+	width: 100%;
+}
+.nav{
+	border-top: 2px solid #141f3b;
+	border-left: 2px solid #141f3b;
+	border-bottom: 2px solid #141f3b;
+	height: 99.7%;
+	width: 250px;
+	float: left;
+}
+.nav td{
+	padding-top: 5%;
+	font-size: 18pt;
+}
+.nav table{
+	padding-top: 5%;
+	padding-left: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+button{
+	font-size: 16pt;
+	background-color: #159f3f;
+	color: white;
+	border: none;
+	width: 100%
+}
+button.college{
+	color: white;
+	background-color: #141f3b;
+	border: none;
+	width: 100%
+}button.shs{
+	color: white;
+	background-color: #141f3b;
+	border: none;
+	width: 100%
+}
+button.emp{
+	color: white;
+	background-color: #141f3b;
+	border: none;
+	width: 100%
+}
+button:hover{
+	color: white;
+	background-color: #141f3b;
+}
+ul{
+	list-style: none;
+}
+.data{
+	border: 2px solid #ffc936;
+	height: 99.7%;
+	width: 1050px;
+	float: right;
+}
+.bars input[type="text"]{
+	border: none;
+	border-bottom: 2px solid #141f3b;
+	font-size: 14pt;
+	outline: none;
+}
+.bars input[type="text"]:focus{
+border-bottom: 2px solid #159f3f;
+outline: none;
+}
+.data th{
+	border-bottom: 2px solid #159f3f;
+	text-align: center;
+}
+.data td{
+	text-align: center;
+}
+h1.col, h1.shs, h1.emp{
+	display: inline;
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color:  #ffc936;
+}
+h1.col:after{
+	content: "College";
+	position: absolute; left: 15px; top: 5px;
+	color: #141f3b;   
+}
+h1.shs:after{
+	content: "Senior High";
+	position: absolute; left: 15px; top: 5px;
+	color: #141f3b;   
+}
+h1.emp:after{
+	content: "Employee";
+	position: absolute; left: 15px; top: 5px;
+	color: #141f3b;   
+}
+input[type="submit"]{
+	border: 2px solid #385d8a;
+	background-color: #4f81bd;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	font-size: 12pt;
+}

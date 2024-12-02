@@ -1,0 +1,124 @@
+body{
+	font-family: segoe ui;
+}
+.con{
+	margin: 1% 1% 1% 1%;
+}
+.main{
+	box-shadow:  0px 2px 5px 2px #fdfffd;
+	height: 100%;
+	width: 100%;
+}
+.nav{
+	border-top: 2px solid #3b1414;
+	border-left: 2px solid #3b1414;
+	border-bottom: 2px solid #3b1414;
+	height: 99.7%;
+	width: 250px;
+	float: left;
+}
+.nav td{
+	padding-top: 5%;
+	font-size: 18pt;
+}
+.nav table{
+	padding-top: 5%;
+	padding-left: 5%;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+button{
+	font-size: 16pt;
+	background-color: #9f1515;
+	color: white;
+	border: none;
+	width: 100%
+}
+button.college{
+	color: white;
+	background-color: #3b1414;
+	border: none;
+	width: 100%
+}button.shs{
+	color: white;
+	background-color: #3b1414;
+	border: none;
+	width: 100%
+}
+button.emp{
+	color: white;
+	background-color: #3b1414;
+	border: none;
+	width: 100%
+}
+button:hover{
+	color: white;
+	background-color: #3b1414;
+}
+ul{
+	list-style: none;
+}
+.form{
+	border: 2px solid #ff3636;
+	height: 99.7%;
+	width: 1050px;
+	float: right;
+}
+h1.col, h1.shs, h1.emp{
+	display: inline;
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color:  #ff3636;
+}
+h1.col:after{
+	content: "College";
+	position: absolute; left: 15px; top: 5px;
+	color: #3b1414;   
+}
+h1.shs:after{
+	content: "Senior High";
+	position: absolute; left: 15px; top: 5px;
+	color: #3b1414;   
+}
+h1.emp:after{
+	content: "Employee";
+	position: absolute; left: 15px; top: 5px;
+	color: #3b1414;   
+}
+.dt, .first, table{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.dt{
+	float: right;
+}
+p{
+	padding-top: 1%;
+	font-size: 15pt;
+	text-align: left;
+}
+input[type="number"],input[type="text"], select{
+	border: none;
+	border-bottom: 2px solid #3b1414;
+	outline: none;
+	font-size: 12pt;
+}
+input[type="text"]:focus, select[name="Sex"]:focus, select[name="Course"]:focus{
+	border: none;
+	border-bottom: 2px solid #9f1515;
+}
+input[name="y"], input[name="a"]{
+	width: 20%;
+}
+input[type="submit"]{
+	height: 5%;
+	border: none;
+	font-size: 15pt;
+}
+input[type="submit"]:hover{
+	color: white;
+	background-color: #3b1414;
+}

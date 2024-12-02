@@ -1,0 +1,163 @@
+body{
+	font-family: segoe ui;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+input[type="submit"]{
+	border: 2px solid #385d8a;
+	background-color: #4f81bd;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	font-size: 12pt;
+}
+input[type="submit"]:hover{
+	background-color: #385d8a;
+	color: white;
+}
+.content .info{
+	float: left;
+	border: 2px solid #fed724;
+	border-radius: 10px 10px;
+	width: 550px;
+	height: 200px;
+}
+.info table{
+	margin-left: 5%;
+	margin-top: 5%;
+	text-align: left;
+}
+.info th, td{
+	font-size: 15pt;
+}
+.content .legend{
+	float: right;
+	width: 600px;
+	height: 300px;
+}
+.chart{
+	width: 1210px;
+	height: 500px;
+}
+.chart .up{
+	background-image: url("lele.jpg");
+	float: top;
+	width: 1210px;
+	height: 250px;
+}
+.chart .up .first{
+	border-right: 2px solid black;
+	float: left;
+	width: 597px;
+	height: 250px;
+}
+.chart .up .first .ul1{
+	float: top;
+	width: 597px;
+	height: 123px;
+}
+.chart .up .first .ul2{
+	float: bottom;
+	width: 597px;
+	height: 123px;
+}
+.chart .up .second{
+	float: right;
+	width: 605px;
+	height: 250px;
+}
+.chart .up .second .ur1{
+	float: top;
+	width: 600px;
+	height: 123px;
+}
+.chart .up .second .ur2{
+	float: bottom;
+	width: 600px;
+	height: 123px;
+}
+.chart .down{
+	background-image: url("lala.jpg");
+	float: bottom;
+	width: 1210px;
+	height: 250px;
+}
+.chart .down .first{
+	border-right: 2px solid black;
+	float: left;
+	width: 597px;
+	height: 250px;
+}
+.chart .down .first .ll1{
+	float: top;
+	width: 597px;
+	height: 123px;
+}
+.chart .down .first .ll2{
+	float: bottom;
+	width: 597px;
+	height: 123px;
+}
+.chart .down .second{
+	float: right;
+	width: 605px;
+	height: 250px;
+}
+.chart .down .second .lr1{
+	float: top;
+	width: 600px;
+	height: 123px;
+}
+.chart .down .second .lr2{
+	float: bottom;
+	width: 600px;
+	height: 123px;
+}
+input[type="text"]{
+	text-align: center;
+	font-size: 15pt;
+	width: 30px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #9bd744;
+}
+input[type="text"]:focus{
+	border-bottom-color: #048291;
+}
+.chart .luh{
+	border: 2px solid black;
+	width: 500px;
+	height: 150px;
+}
+.chart .up .first .ul1 .ul1{
+	width: 90%;
+	margin-left: 5%;
+}
+.chart .up .first .ul2 .ul2{
+	width: 90%;
+	margin-left: 1%;
+}
+.chart .down .first .ll1 .ll1{
+	width: 90%;
+	margin-left: 1%;
+}
+.chart .down .first .ll2 .ll2{
+	width: 90%;
+	margin-left: 5%;
+}
+.chart .up .second .ur1 .ur1{
+	width: 90%;
+	margin-left: 10%;
+}
+.chart .up .second .ur2 .ur2{
+	width: 90%;
+	margin-left: 7%;
+}
+.chart .down .second .lr1 .lr1{
+	width: 90%;
+	margin-left: 7%;
+}
+.chart .down .second .lr2 .lr2{
+	width: 90%;
+	margin-left: 10%;
+}

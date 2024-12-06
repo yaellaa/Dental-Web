@@ -16,7 +16,7 @@
     </header>
 
     <div style="display: flex; justify-content: center; align-items: center; height: 10vh;">
-    <a href="Login.php" style="display: inline-block; background-color: red; color: white; text-decoration: none; padding: 10px 20px; font-size: 16px; font-weight: bold; border-radius: 5px;">
+    <a href="Login.php" style="display: inline-block; background-color: #B11F27; color: white; text-decoration: none; padding: 10px 20px; font-size: 16px; font-weight: bold; border-radius: 5px;">
         Click here to consult
     </a>
 </div>
@@ -28,7 +28,8 @@
     <section id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>Welcome to St. Dominic Dental CLinic! We are committed to providing top-notch dental care for you and your family. Our team of experienced professionals ensures a comfortable and stress-free experience.</p>
+            <p>Welcome to St. Dominic Dental Clinic! We are committed to providing top-notch dental care for you and your family. 
+                Our team of experienced professionals ensures a comfortable and stress-free experience.</p>
         </div>
     </section>
 

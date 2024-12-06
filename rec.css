@@ -6,7 +6,7 @@ body{
 	margin: 2% 2% 2% 2%;
 }
 .info {
-	border: 2px solid #ffc936;
+	border: 2px solid #900604;
 	width: 400px;
 	height: 150px;
 	border-radius: 15px;
@@ -29,7 +29,7 @@ body{
 }
 .opt {
 	margin-top: 2%;
-	border: 2px solid #30944e;
+	border: 2px solid #900604;
 	padding-left: 10px;
 	width: 300px;
 	height: 400px;
@@ -38,13 +38,13 @@ body{
 }
 .teeth {
 	margin-top: 2%;
-	border-left: 2px solid #30944e;
+	border-left: 2px solid #900604;
 	width: 728px;
 	height: 400px;
 	float: right;
 }
 .teeth th{
-	border-bottom: 2px solid #30944e;
+	border-bottom: 2px solid #900604;
 }
 .rec{
 	margin-top: 4%;

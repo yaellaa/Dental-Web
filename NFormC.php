@@ -39,7 +39,7 @@ $time = date('g:i a');
 						</td>
 						</tr>
 						<tr>
-						<td><a href="Login.php"><center>Logout</center></a></td>
+						<td><a href="Logout.php"><center>Logout</center></a></td>
 						</tr>
 					</table>
 				</div>
@@ -89,7 +89,12 @@ $time = date('g:i a');
 					</td>
 					<td>
 					<p>Year:</p>
-					<input type="text" id="y" name="y" required>
+					<select id="y" name="y" required>
+						<option value="Select Year" selected hidden>Select Year</option>
+						<option value="1">Year One</option>
+						<option value="2">Year Two</option>
+						<option value="3">Year Three</option>
+						<option value="4">Year Four</option>
 					</td>
 					</tr>
 					</table>
@@ -101,8 +106,8 @@ $time = date('g:i a');
 					</td>
 					<td width="70%">
 					<p>Sex</p>
-					<select name="Sex">
-					<option value="Select Type" selected>Select Sex</option>
+					<select name="Sex" required>
+					<option value="Select Type" selected hidden>Select Sex</option>
 					<option value="Male">Male</option>
 					<option value="Female">Female</option>
 					</select>

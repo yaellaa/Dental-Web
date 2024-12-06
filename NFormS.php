@@ -71,7 +71,7 @@ $time = date('g:i a');
 		<td width="42.5%">
 						<p>Strand</p>
 			<select name="Strand">
-			<option value="Select Type" selected>Select Strand</option>
+			<option value="Select Type" selected hidden>Select Strand</option>
 			<option value="TVLHRS">TVL-HRS</option>
 			<option value="TVLICT">TVL-ICT</option>
 			<option value="HUMMS">HUMMS</option>
@@ -80,8 +80,11 @@ $time = date('g:i a');
 			</select>
 		</td>
 		<td width="43%">
-						<p>Grade:</p>
-			<input type="text" id="g" name="g" required>
+			<p>Grade:</p>
+			<select id="g" name="g" required>
+			<option value="Select Grade" selected hidden>Select Grade</option>
+			<option value="G11">Grade 11</option>
+			<option value="G12">Grade 12</option>
 		</td>
 		<td>
 								<p>Section</p>

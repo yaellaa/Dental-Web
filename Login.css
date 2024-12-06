@@ -23,8 +23,8 @@ body{
 	border-bottom: 2px solid #159f3f;
 }
 .login input[type="submit"]{
-	border: 2px solid #385d8a;
-	background-color: #4f81bd;
+	border: 2px solid #900604;
+	background-color: #B11F27;
 	color: rgb(237, 237, 237);
 	cursor: pointer;
 	outline: none;

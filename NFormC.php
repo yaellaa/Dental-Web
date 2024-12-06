@@ -70,16 +70,21 @@ $time = date('g:i a');
 					<tr>
 					<td width="65.7%">
 					<p>Course</p>
-					<select name="Course">
-					<option value="Select Type" selected>Select Course</option>
+					<select name="Course" required>
+					<option value="Select Type" selected hidden>Select Course</option>
 					<option value="BSA">BSA</option>
 					<option value="BSBA">BSBA</option>
 					<option value="BAComm">BAComm</option>
 					<option value="BSIT">BSIT</option>
 					<option value="BSN">BSN</option>
 					<option value="BSP">BSP</option>
-					<option value="HRM">HRM</option>
+					<option value="BSHM">BSHM</option>
+					<option value="BSEd">BSEd</option>
+					<option value="BSPsych">BSPsych</option>
 					<option value="BSTM">BSTM</option>
+					<option value="BSTM">BSPharma</option>
+					<option value="BSMT">BSPT</option>
+					<option value="BSRT">BSRT</option>
 					</select>
 					</td>
 					<td>

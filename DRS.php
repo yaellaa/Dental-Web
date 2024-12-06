@@ -18,7 +18,7 @@
 						</td>
 						</tr>
 						<tr>
-						<td><a href="Login.php"><center>Logout</center></a></td>
+						<td><a href="Logout.php"><center>Logout</center></a></td>
 						</tr>
 					</table>
 				</div>

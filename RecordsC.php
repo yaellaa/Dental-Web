@@ -15,9 +15,9 @@ $mysqli = mysqli_connect("localhost", "root", "", "dental");?>
 <table>
 <tr>
 <td><a href="NurseTab.php">Forms</a></td>
-<td><a href="RecordsC.php">College(Records)</a></td>
-<td><a href="RecordsS.php">SHS(Records)</a></td>
-<td><a href="RecordsE.php">Employee(Records)</a></td>
+<td><a href="RecordsC.php">College (Records)</a></td>
+<td><a href="RecordsS.php">SHS (Records)</a></td>
+<td><a href="RecordsE.php">Employee (Records)</a></td>
 <td><a href="Login.php">Logout</a></td>
 </tr>
 </table>

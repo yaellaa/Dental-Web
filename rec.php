@@ -17,7 +17,7 @@ $id = $_GET['id'];
 	$mn = $res['MiddleName'];
 	$ln = $res['LastName'];
 	$course = $res['Course'];
-	$year = $res['Year'];
+	$year = $res['Year']; };
 ?>
 <html>
 <body>

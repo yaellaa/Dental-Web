@@ -72,7 +72,8 @@ $time = date('g:i a');
 						<p>Strand</p>
 			<select name="Strand">
 			<option value="Select Type" selected>Select Strand</option>
-			<option value="GAS">GAS</option>
+			<option value="TVLHRS">TVL-HRS</option>
+			<option value="TVLICT">TVL-ICT</option>
 			<option value="HUMMS">HUMMS</option>
 			<option value="STEM">STEM</option>
 			<option value="ABM">ABM</option>
@@ -84,20 +85,23 @@ $time = date('g:i a');
 		</td>
 		<td>
 								<p>Section</p>
-			<select name="Section">
-			<option value="Select Section" selected>Select Section</option>
-			<option value="Grade11">---Grade 11---</option>
-			<option value="Mabini">Mabini</option>
-			<option value="Pelaez">Pelaez</option>
-			<option value="Jacinto">Jacinto</option>
-			<option value="Aquino">Aquino</option>
-			<option value="Bonifacio">Bonifacio</option>
-			<option value="Grade12">---Grade 12---</option>
-			<option value="Zeus">Zeus</option>
-			<option value="Aphrodite">Aphrodite</option>
-			<option value="Helios">Helios</option>
-			<option value="Hermes">Hermes</option>
-			<option value="Diana">Diana</option>
+			<select name="Section" required>
+			<option value="Select Section" selected hidden>Select Section</option>
+			<option value="Mabini">Albert Einstein</option>
+			<option value="Pelaez">Galileo Galilei</option>
+			<option value="Diana">Euclid</option>
+			<option value="Jacinto">Isaac Newton</option>
+			<option value="Aquino">Nikola Tesla</option>
+			<option value="Bonifacio">Charles Darwin</option>
+			<option value="Zeus">Aristotle</option>
+			<option value="Aphrodite">Blaise Pascal</option>
+			<option value="Helios">Nelson Mandela</option>
+			<option value="Hermes">Plato</option>
+			<option value="Zeus">Alaine Ducasse</option>
+			<option value="Zeus">Alfred Marshall</option>
+			<option value="Zeus">Copernicus</option>
+			<option value="Zeus">Pythagoras</option>
+
 			</select>
 		</td>
 		</td>

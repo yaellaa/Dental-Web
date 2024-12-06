@@ -13,7 +13,7 @@ body{
 	float: left;
 }
 .college{
-	border: 2px solid white;
+	border: 2px solid rgb(237, 237, 237);
 	margin-right: 10%;
 	width: 600px;
 	height: 150px;
@@ -29,7 +29,7 @@ body{
 }
 .opt {
 	margin-top: 2%;
-	border: 2px solid #159f3f;
+	border: 2px solid #30944e;
 	padding-left: 10px;
 	width: 300px;
 	height: 400px;
@@ -38,13 +38,13 @@ body{
 }
 .teeth {
 	margin-top: 2%;
-	border-left: 2px solid #159f3f;
+	border-left: 2px solid #30944e;
 	width: 728px;
 	height: 400px;
 	float: right;
 }
 .teeth th{
-	border-bottom: 2px solid #159f3f;
+	border-bottom: 2px solid #30944e;
 }
 .rec{
 	margin-top: 4%;
@@ -69,7 +69,7 @@ input[type="submit"]{
 	font-size: 15pt;
 }
 input[type="submit"]:hover{
-	color: white;
+	color: rgb(237, 237, 237);
 	background-color: #141f3b;
 }
 h1{

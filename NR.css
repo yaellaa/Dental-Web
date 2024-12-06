@@ -29,34 +29,34 @@ body{
 }
 .nav a{
 	text-decoration: none;
-	color: black;
+	color: #101010;
 }
 button{
 	font-size: 16pt;
-	background-color: #159f3f;
-	color: white;
+	background-color: #30944e;
+	color: rgb(237, 237, 237);
 	border: none;
 	width: 100%
 }
 button.college{
-	color: white;
+	color: rgb(237, 237, 237);
 	background-color: #141f3b;
 	border: none;
 	width: 100%
 }button.shs{
-	color: white;
+	color: rgb(237, 237, 237);
 	background-color: #141f3b;
 	border: none;
 	width: 100%
 }
 button.emp{
-	color: white;
+	color: rgb(237, 237, 237);
 	background-color: #141f3b;
 	border: none;
 	width: 100%
 }
 button:hover{
-	color: white;
+	color: rgb(237, 237, 237);
 	background-color: #141f3b;
 }
 ul{
@@ -75,11 +75,11 @@ ul{
 	outline: none;
 }
 .bars input[type="text"]:focus{
-border-bottom: 2px solid #159f3f;
+border-bottom: 2px solid #30944e;
 outline: none;
 }
 .data th{
-	border-bottom: 2px solid #159f3f;
+	border-bottom: 2px solid #30944e;
 	text-align: center;
 }
 .data td{
@@ -110,7 +110,7 @@ h1.emp:after{
 input[type="submit"]{
 	border: 2px solid #385d8a;
 	background-color: #4f81bd;
-	color: white;
+	color: rgb(237, 237, 237);
 	cursor: pointer;
 	outline: none;
 	font-size: 12pt;

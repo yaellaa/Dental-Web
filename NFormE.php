@@ -78,11 +78,22 @@ $time = date('g:i a');
 		</td>
 		<td>
 						<p>Department</p>
-			<select name="Department">
-			<option value="Select Type" selected>Select Dapartment</option>
-			<option value="CAM">CAM</option>
-			<option value="CAS">CAS</option>
-			<option value="MDCon">MDCon</option>
+			<select name="Department" required>
+			<option value="Select Type" selected hidden>Select Department</option>
+			<option value="Teach" hidden>-- Teaching --</option>
+			<option value="BEdPreschool">Basic Education (Preschool)</option>
+			<option value="BEdElem">Basic Education (Elementary)</option>
+			<option value="BEdJHS">Basic Education (Junior High School)</option>
+			<option value="BEdSHS">Basic Education (Senior High School)</option>
+			<option value="HEdSCMCS">Higher Education (SCMCS)</option>
+			<option value="HEdSMLS">Higher Education (SMLS)</option>
+			<option value="HEdSIHTM">Higher Education (SIHTM)</option>
+			<option value="HEdSASE">Higher Education (SASE)</option>
+			<option value="HEdSNAHS">Higher Education (SNAHS)</option>
+			<option value="NonTeach" hidden>-- Non-Teaching --</option>
+			<option value="BAO">BAO</option>
+			<option value="Canteen">Canteen Staff</option>
+			<option value="DLRC">DLRC</option>
 			</select>
 		</td>
 		</tr>

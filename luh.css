@@ -6,14 +6,14 @@ body{
 input[type="submit"]{
 	border: 2px solid #385d8a;
 	background-color: #4f81bd;
-	color: white;
+	color: rgb(237, 237, 237)white;
 	cursor: pointer;
 	outline: none;
 	font-size: 12pt;
 }
 input[type="submit"]:hover{
 	background-color: #385d8a;
-	color: white;
+	color: rgb(237, 237, 237);
 }
 .content .info{
 	float: left;
@@ -46,7 +46,7 @@ input[type="submit"]:hover{
 	height: 250px;
 }
 .chart .up .first{
-	border-right: 2px solid black;
+	border-right: 2px solid #191919;
 	float: left;
 	width: 597px;
 	height: 250px;
@@ -83,7 +83,7 @@ input[type="submit"]:hover{
 	height: 250px;
 }
 .chart .down .first{
-	border-right: 2px solid black;
+	border-right: 2px solid #191919;
 	float: left;
 	width: 597px;
 	height: 250px;
@@ -125,7 +125,7 @@ input[type="text"]:focus{
 	border-bottom-color: #048291;
 }
 .chart .luh{
-	border: 2px solid black;
+	border: 2px solid #191919;
 	width: 500px;
 	height: 150px;
 }

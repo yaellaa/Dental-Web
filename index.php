@@ -35,7 +35,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; <?php echo date("Y"); ?> Your Dental Clinic. All rights reserved.</p>
+            <p>&copy; <?php echo date("Y"); ?> St. Dominic Dental Clinic. All rights reserved.</p>
         </div>
     </footer>
 </body>

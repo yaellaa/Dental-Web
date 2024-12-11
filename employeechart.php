@@ -1,10 +1,10 @@
 <?php 
-$databaseHost = 'localhost';
-$databaseName = 'dental';
-$databaseUsername = 'root';
-$databasePassword = '';
+	$databaseHost = 'localhost';
+	$databaseName = 'dental';
+	$databaseUsername = 'root';
+	$databasePassword = '';
 
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
+	$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
 if(isset($_POST['update']))
 {	
 
@@ -140,38 +140,38 @@ if(isset($_POST['update']))
 }
 ?>
 <html>
-<head>	
-	<title>Employee (Teeth Chart)</title>
-</head>
+	<head>	
+		<title>Employee (Teeth Chart)</title>
+	</head>
 <body>
-<link href="luh.css" type="text/css" rel="stylesheet"/>
-<div class="content">
-<form action="employeechart.php" method="post">
-<div class="info">
-<table>
-<tr>
-<th 	width: "70%">ID Number: </th>
-<td><?php echo $in;?></td>
-</tr>
-<tr>
-<th>Name: </th>
-<td><?php echo $ln .", ". $fn ." ". $ln;?></td>
-</tr>
-<tr>
-<th>Unit: </th>
-<td><?php echo $unit;?></td>
-</tr>
-<tr>
-<th>Department: </th>
-<td><?php echo $dept;?></td>
-</tr>
-</table>
-</div>
-<div class="legend">
-<img src="legends.jpg"/>
-</div>
-</div>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<link href="luh.css" type="text/css" rel="stylesheet"/>
+			<div class="content">
+			<form action="employeechart.php" method="post">
+			<div class="info">
+		<table>
+			<tr>
+				<th 	width: "70%">ID Number: </th>
+				<td><?php echo $in;?></td>
+			</tr>
+			<tr>
+				<th>Name: </th>
+				<td><?php echo $ln .", ". $fn ." ". $ln;?></td>
+			</tr>
+			<tr>
+				<th>Unit: </th>
+				<td><?php echo $unit;?></td>
+			</tr>
+			<tr>
+				<th>Department: </th>
+				<td><?php echo $dept;?></td>
+			</tr>
+		</table>
+				</div>
+				<div class="legend">
+				<img src="legends.jpg"/>
+				</div>
+				</div>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <div class="chart">
 	<div class="up">
 		<div class="first">

@@ -1,152 +1,152 @@
-:root {
-    --primary-color: #3b1414;
-    --secondary-color: #9f1515;
-    --accent-color: #ff3636;
-    --background-color: #fdfffd;
-    --text-color: #333;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: var(--text-color);
-    background-color: var(--background-color);
-    margin: 0;
-    padding: 0;
-}
-
-.con {
-    max-width: 1400px;
-    margin: 20px auto;
-    display: flex;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.main {
-    display: flex;
-    width: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.nav {
-    width: 250px;
-    background-color: #f4f4f4;
-    border-right: 2px solid var(--primary-color);
-    padding: 20px 0;
-}
-
-.nav table {
-    width: 100%;
-}
-
-.nav td {
-    padding: 10px 15px;
-    transition: background-color 0.3s ease;
-}
-
-.nav a {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: 600;
-    display: block;
-    width: 100%;
-}
-
-.nav td:hover {
-    background-color: rgba(59, 20, 20, 0.1);
-}
-
-button {
-    font-size: 16px;
-    background-color: var(--secondary-color);
-    color: white;
-    border: none;
-    width: 100%;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 4px;
-}
-
-button:hover {
-    background-color: var(--primary-color);
-}
-
-.form {
-    flex-grow: 1;
-    padding: 30px;
-    background-color: white;
-}
-
-h1.col, h1.shs, h1.emp {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 80px;
-    color: var(--accent-color);
-    position: relative;
-    letter-spacing: -3px;
-    margin-bottom: 30px;
-}
-
-h1.col:after, h1.shs:after, h1.emp:after {
-    content: attr(data-text);
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    color: var(--primary-color);
-    z-index: -1;
-}
-
-p {
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-
-input[type="number"], 
-input[type="text"], 
-select {
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid var(--primary-color);
-    padding: 8px 0;
-    font-size: 16px;
-    transition: border-color 0.3s ease;
-}
-
-input[type="number"]:focus, 
-input[type="text"]:focus, 
-select:focus {
-    outline: none;
-    border-bottom-color: var(--accent-color);
-}
-
-input[name="y"], 
-input[name="a"] {
-    width: 20%;
-}
-
-input[type="submit"] {
-    background-color: var(--secondary-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-input[type="submit"]:hover {
-    background-color: var(--primary-color);
-}
-
-/* Responsive adjustments */
-@media screen and (max-width: 1200px) {
-    .con, .main {
-        flex-direction: column;
+    :root {
+        --primary-color: #3b1414;
+        --secondary-color: #9f1515;
+        --accent-color: #ff3636;
+        --background-color: #fdfffd;
+        --text-color: #333;
     }
-    
-    .nav, .form {
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        margin: 0;
+        padding: 0;
+    }
+
+    .con {
+        max-width: 1400px;
+        margin: 20px auto;
+        display: flex;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .main {
+        display: flex;
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .nav {
+        width: 250px;
+        background-color: #f4f4f4;
+        border-right: 2px solid var(--primary-color);
+        padding: 20px 0;
+    }
+
+    .nav table {
         width: 100%;
     }
-}
+
+    .nav td {
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: var(--primary-color);
+        font-weight: 600;
+        display: block;
+        width: 100%;
+    }
+
+    .nav td:hover {
+        background-color: rgba(59, 20, 20, 0.1);
+    }
+
+    button {
+        font-size: 16px;
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        background-color: var(--primary-color);
+    }
+
+    .form {
+        flex-grow: 1;
+        padding: 30px;
+        background-color: white;
+    }
+
+    h1.col, h1.shs, h1.emp {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 80px;
+        color: var(--accent-color);
+        position: relative;
+        letter-spacing: -3px;
+        margin-bottom: 30px;
+    }
+
+    h1.col:after, h1.shs:after, h1.emp:after {
+        content: attr(data-text);
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        color: var(--primary-color);
+        z-index: -1;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    input[type="number"], 
+    input[type="text"], 
+    select {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid var(--primary-color);
+        padding: 8px 0;
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+    }
+
+    input[type="number"]:focus, 
+    input[type="text"]:focus, 
+    select:focus {
+        outline: none;
+        border-bottom-color: var(--accent-color);
+    }
+
+    input[name="y"], 
+    input[name="a"] {
+        width: 20%;
+    }
+
+    input[type="submit"] {
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: var(--primary-color);
+    }
+
+    /* Responsive adjustments */
+    @media screen and (max-width: 1200px) {
+        .con, .main {
+            flex-direction: column;
+        }
+        
+        .nav, .form {
+            width: 100%;
+        }
+    }

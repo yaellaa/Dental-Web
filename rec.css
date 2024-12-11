@@ -1,87 +1,87 @@
-body{
-	font-family: segoe ui;
-	font-size: 15pt;
-}
-.main {
-	margin: 2% 2% 2% 2%;
-}
-.info {
-	border: 2px solid #900604;
-	width: 400px;
-	height: 150px;
-	border-radius: 15px;
-	float: left;
-}
-.college{
-	border: 2px solid rgb(237, 237, 237);
-	margin-right: 10%;
-	width: 600px;
-	height: 150px;
-	border-radius: 15px;
-	float: right;
-}
-.info td{
-	padding-top: 2%;
-	padding-left: 5%;
-	font-family: segoe ui;
-	font-weight: bold;
-	font-size: 15pt;
-}
-.opt {
-	margin-top: 2%;
-	border: 2px solid #900604;
-	padding-left: 10px;
-	width: 300px;
-	height: 400px;
-	float: left;
-	border-radius: 15px;
-}
-.teeth {
-	margin-top: 2%;
-	border-left: 2px solid #900604;
-	width: 728px;
-	height: 400px;
-	float: right;
-}
-.teeth th{
-	border-bottom: 2px solid #900604;
-}
-.rec{
-	margin-top: 4%;
-	width: 250px;
-	height: 350px;
-	float: left;
-}
-.opt select[name="tooth"], select[name="condition"], select[name="treatment"], input[type="text"]{
-	font-family: segoe ui;
-	font-size: 12pt;
-}
-.opt td, p{
-	font-size: 15pt;
-}
-.teeth table{
-	text-align: center;
-}
-input[type="submit"]{
-	margin-left: 40%;
-	height: 10%;
-	border: none;
-	font-size: 15pt;
-}
-input[type="submit"]:hover{
-	color: rgb(237, 237, 237);
-	background-color: #141f3b;
-}
-h1{
-	padding-left: 20%;
-	display: inline;
-	position: relative;
-	font: 100px Helvetica, Sans-Serif;
-	letter-spacing: -5px;
-	color:  #ffc936;
-}
-h1:after{
-	content: "College";
-	position: absolute; left: 26.5%; top: 5px;
-	color: #141f3b;   
-}
+	body{
+		font-family: segoe ui;
+		font-size: 15pt;
+	}
+	.main {
+		margin: 2% 2% 2% 2%;
+	}
+	.info {
+		border: 2px solid #900604;
+		width: 400px;
+		height: 150px;
+		border-radius: 15px;
+		float: left;
+	}
+	.college{
+		border: 2px solid rgb(237, 237, 237);
+		margin-right: 10%;
+		width: 600px;
+		height: 150px;
+		border-radius: 15px;
+		float: right;
+	}
+	.info td{
+		padding-top: 2%;
+		padding-left: 5%;
+		font-family: segoe ui;
+		font-weight: bold;
+		font-size: 15pt;
+	}
+	.opt {
+		margin-top: 2%;
+		border: 2px solid #900604;
+		padding-left: 10px;
+		width: 300px;
+		height: 400px;
+		float: left;
+		border-radius: 15px;
+	}
+	.teeth {	
+		margin-top: 2%;
+		border-left: 2px solid #900604;
+		width: 728px;
+		height: 400px;
+		float: right;
+	}
+	.teeth th{
+		border-bottom: 2px solid #900604;
+	}
+	.rec{
+		margin-top: 4%;
+		width: 250px;
+		height: 350px;
+		float: left;
+	}
+	.opt select[name="tooth"], select[name="condition"], select[name="treatment"], input[type="text"]{
+		font-family: segoe ui;
+		font-size: 12pt;
+	}
+	.opt td, p{
+		font-size: 15pt;
+	}
+	.teeth table{
+		text-align: center;
+	}
+	input[type="submit"]{
+		margin-left: 40%;
+		height: 10%;
+		border: none;
+		font-size: 15pt;
+	}
+	input[type="submit"]:hover{
+		color: rgb(237, 237, 237);
+		background-color: #141f3b;
+	}
+	h1{
+		padding-left: 20%;
+		display: inline;
+		position: relative;
+		font: 100px Helvetica, Sans-Serif;
+		letter-spacing: -5px;
+		color:  #ffc936;
+	}
+	h1:after{
+		content: "College";
+		position: absolute; left: 26.5%; top: 5px;
+		color: #141f3b;   
+	}

@@ -1,12 +1,11 @@
 <?php
-$databaseHost = 'localhost';
-$databaseName = 'dental';
-$databaseUsername = 'root';
-$databasePassword = '';
+	$databaseHost = 'localhost';
+	$databaseName = 'dental';
+	$databaseUsername = 'root';
+	$databasePassword = '';
 
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
+	$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
 
-// including the database connection file
 session_start();
 if(isset($_POST['cancel']))
 {

@@ -38,10 +38,16 @@
 					<table class = "bars">
 						<tr>
 							<td>
-							<form action="NRC.php" method="POST"><br/><br/><br/>
-							<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSearch: 
-								<input type="text"  id="search" name="search" placeholder="Search"/> <input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp<input type="submit" id="all" name="all" value="All"></p>
+								<center>
+									<form action="NRC.php" method="POST"><br/><br/><br/>
+							<br>
+								<input type="text"  id="search" name="search" placeholder="Search"/> 
+								<br></br>
+								<input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp
+								<input type="submit" id="all" name="all" value="All"></p>
+								<br></br>
 							</form>
+								</center>
 							</td>
 						</tr>
 					</table>

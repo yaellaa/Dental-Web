@@ -39,8 +39,12 @@
 						<tr>
 							<td>
 						<form action="NRE.php" method="POST"><br/><br/><br/>
-						<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSearch: 
-							<input type="text"  id="search" name="search" placeholder="Search"/> <input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp<input type="submit" id="all" name="all" value="All"></p>
+						<p>
+							<input type="text"  id="search" name="search" placeholder="Search"/> 
+							<br></br>
+							<input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp
+							<input type="submit" id="all" name="all" value="All"></p>
+							<br></br>
 						</form>
 							</td>
 						</tr>

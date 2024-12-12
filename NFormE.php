@@ -9,41 +9,15 @@ $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $d
 date_default_timezone_set('Asia/Manila');
 $date = date('F j, Y');
 $time = date('g:i a');
+require_once($_SERVER["DOCUMENT_ROOT"]."/Directories.php");
+
 ?>
 <html>
 	<body>
 	<link href="NForm.css" type="text/css" rel="stylesheet"/>
 		<div class="con">
 			<div class="main">
-				<div class="nav">
-					<table>
-						<tr>
-							<td class="dental"><i><center>Dental System</center></i><br/>
-						</tr>
-						<tr>
-							<td>Forms
-						<ul>
-							<li><a href="NFormC.php"><button>College</button></a></li>
-							<li><a href="NFormS.php"><button>Senior High</button></a></li>
-							<li><a href="NFormE.php"><button class="emp">Employee</button></a></li>
-						</ul>
-							</td>
-						</tr>
-						<tr>
-							<td>Records
-						<ul>
-							<li><a href="allrec.php"><button>All Records</button></a></li>
-							<li><a href="NRC.php"><button>College</button></a></li>
-							<li><a href="NRS.php"><button>Senior High</button></a></li>
-							<li><a href="NRE.php"><button>Employee</button></a></li>
-						</ul>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="Logout.php"><center>Logout</center></a></td>
-						</tr>
-					</table>
-				</div>
+			<?php include(ROOT_DIR."/nsidenav.php"); ?>
 				<div class="form">
 					<h1 class="emp">&nbspEmployee</h1>
 					<form action="employeead.php" method="POST">
@@ -53,15 +27,15 @@ $time = date('g:i a');
 						</div>
 						<table>
 						<tr>
-						<td width="50%">
+						<td width="24%">
 										<p>First Name:</p>
 							<input type="text" id="fn" name="fn" required>
 						</td>
-						<td width="50%">
+						<td width="24%">
 										<p>Middle Name:</p>
 							<input type="text" id="mn" name="mn" required>
 						</td>
-						<td width="50%">
+						<td width="24%">
 										<p>Last Name:</p>
 							<input type="text" id="ln" name="ln" required>
 						</td>
@@ -69,15 +43,15 @@ $time = date('g:i a');
 						</table>
 						<table>
 						<tr>
-						<td width="70%">
+						<td width="18%">
 						<p>Unit</p>
 							<select name="Unit">
-							<option value="Select Type" selected>Select Dapartment</option>
+							<option value="Select Type" selected>Select Department</option>
 							<option value="Teaching">Teaching</option>
 							<option value="Non-Teaching">Non-Teaching</option>
 							</select>
 						</td>
-						<td>
+						<td width="18%">
 						<p>Department</p>
 							<select name="Department" required>
 							<option value="Select Type" selected hidden>Select Department</option>
@@ -101,11 +75,11 @@ $time = date('g:i a');
 				</table>
 				<table>
 					<tr>
-						<td width="51%">
+						<td width="18%">
 						<p>Age:</p>
 							<input type="text" id="a" name="a" required>
 						</td>
-						<td width="70%">
+						<td width="24%">
 						<p>Sex</p>
 							<select name="Sex" required>
 							<option value="Select Type" selected hidden>Select Sex</option>
@@ -113,7 +87,7 @@ $time = date('g:i a');
 							<option value="Female">Female</option>
 							</select>
 						</td>
-						<td>
+						<td width="18%">
 						<p>Birthdate:</p>
 							<input type="text" id="bd" name="bd" placeholder="(MM/DD/YY)" required>
 						</td>
@@ -121,15 +95,15 @@ $time = date('g:i a');
 					</table>
 					<table>
 					<tr>
-						<td width="41%">
+						<td width="18%">
 						<p>Contact Number:</p>
 							<input type="text" id="pc" name="pc" required>
 						</td>
-						<td width="41%">
+						<td width="42%">
 						<p>Attending Doctor:</p>
 							<input type="text" id="ad" name="ad" required>
 						</td>
-						<td>
+						<td width="18%">
 						<p>Guardian's Contact Number:</p>
 							<input type="text" id="gpc" name="gpc" required>
 						</td>

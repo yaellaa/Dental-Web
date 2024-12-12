@@ -9,41 +9,15 @@
 	date_default_timezone_set('Asia/Manila');
 	$date = date('F j, Y');
 	$time = date('g:i a');
+	require_once($_SERVER["DOCUMENT_ROOT"]."/Directories.php");
+
 ?>
 <html>
 	<body>
 	<link href="NForm.css" type="text/css" rel="stylesheet"/>
 		<div class="con">
 			<div class="main">
-				<div class="nav">
-					<table>
-						<tr>
-							<td><i><center>Dental System</center></i><br/>
-						</tr>
-						<tr>
-							<td>Forms
-						<ul>
-							<li><a href="NFormC.php"><button class="college">College</button></a></li>
-							<li><a href="NFormS.php"><button>Senior High</button></a></li>
-							<li><a href="NFormE.php"><button>Employee</button></a></li>
-						</ul>
-							</td>
-						</tr>
-						<tr>
-							<td>Records
-						<ul>
-							<li><a href="allrec.php"><button>All Records</button></a></li>
-							<li><a href="NRC.php"><button>College</button></a></li>
-							<li><a href="NRS.php"><button>Senior High</button></a></li>
-							<li><a href=""><button>Employee</button></a></li>
-						</ul>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="Logout.php"><center>Logout</center></a></td>
-						</tr>
-					</table>
-				</div>
+				<?php include(ROOT_DIR."/nsidenav.php"); ?>
 				<div class="form">
 					<h1 class="col">&nbspCollege</h1>
 						<form action="collegead.php" method="POST">
@@ -53,15 +27,15 @@
 						</div>
 					<table>
 						<tr>
-							<td width="50%">
+							<td width="24%">
 						<p>First Name:</p>
 							<input type="text" id="fn" name="fn" required>
 							</td>
-							<td width="50%">
+							<td width="24%">
 						<p>Middle Name:</p>
 							<input type="text" id="mn" name="mn" required>
 							</td>
-						<td width="50%">
+						<td width="24%">
 						<p>Last Name:</p>
 							<input type="text" id="ln" name="ln" required>
 							</td>
@@ -69,7 +43,7 @@
 					</table>
 					<table>
 						<tr>
-							<td width="65.7%">
+							<td width="70%">
 						<p>Course</p>
 							<select name="Course" required>
 								<option value="Select Type" selected hidden>Select Course</option>
@@ -88,7 +62,7 @@
 								<option value="BSRT">BSRT</option>
 							</select>
 							</td>
-							<td>
+							<td width="64%">
 						<p>Year:</p>
 							<select id="y" name="y" required>
 								<option value="Select Year" selected hidden>Select Year</option>
@@ -101,11 +75,11 @@
 					</table>
 					<table>
 						<tr>
-							<td width="51%">
+							<td width="18%">
 						<p>Age:</p>
 							<input type="text" id="a" name="a" required>
 							</td>
-							<td width="70%">
+							<td width="24%">
 						<p>Sex</p>
 							<select name="Sex" required>
 								<option value="Select Type" selected hidden>Select Sex</option>
@@ -113,7 +87,7 @@
 								<option value="Female">Female</option>
 							</select>
 							</td>
-							<td>
+							<td width="24%">
 						<p>Birthdate:</p>
 							<input type="text" id="bd" name="bd" placeholder="(MM/DD/YY)" required>
 							</td>
@@ -121,15 +95,15 @@
 					</table>
 					<table>
 						<tr>
-							<td width="41%">
+							<td width="14%">
 						<p>Contact Number:</p>
 							<input type="text" id="pc" name="pc" required>
 						</td>
-						<td width="41%">
+						<td width="32%">
 						<p>Attending Doctor:</p>
 							<input type="text" id="ad" name="ad" required>
 						</td>
-						<td>
+						<td width="14%">
 						<p>Guardian's Contact Number:</p>
 							<input type="text" id="gpc" name="gpc" required>
 						</td>

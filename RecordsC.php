@@ -4,7 +4,7 @@ $mysqli = mysqli_connect("localhost", "root", "", "dental");?>
 		<head>	
 			<title>College (Records)</title>
 		</head>
-	<link href="tabs.css" type="text/css"rel="stylesheet"/>
+	<link href="NR.css" type="text/css"rel="stylesheet"/>
 <body>
 		<div id="RecordsC">
 		<div class="banner">
@@ -28,7 +28,9 @@ $mysqli = mysqli_connect("localhost", "root", "", "dental");?>
 		<td>
 				<form action="RecordsC.php" method="POST">
 					<p>Search: 
-					<input type="text"  id="search" name="search" placeholder="Search"/> <input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp<input type="submit" id="all" name="all" value="All"></p>
+					<input type="text"  id="search" name="search" placeholder="Search"/> 
+					<input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp
+					<input type="submit" id="all" name="all" value="All"></p>
 				</form>
 		</td>
 			</tr>

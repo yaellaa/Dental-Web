@@ -39,16 +39,18 @@ $_SESSION["UserLevel"] = "Nurse";
             </table>
         </div>
         <div class="data">
-            <h1 class="allrec">&nbspAll Records</h1>
+        <h1 class="col">&nbspAll Records</h1>
             <table class="bars">
                 <tr>
                     <td>
                         <form action="allrec.php" method="POST">
                             <br/><br/><br/>
-                            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSearch: 
+                            <p>
                                 <input type="text" id="search" name="search" placeholder="Search"/> 
+                                <br></br>
                                 <input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp
                                 <input type="submit" id="all" name="all" value="All">
+                                <br></br>
                             </p>
                         </form>
                     </td>

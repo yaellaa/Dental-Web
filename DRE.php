@@ -1,36 +1,23 @@
+<?php     require_once($_SERVER["DOCUMENT_ROOT"]."/Directories.php");
+?>
 <html>
 	<body>
 	<link href="NR.css" type="text/css" rel="stylesheet"/>
 		<div class="con">
 			<div class="main">
-				<div class="nav">
-					<table>
-						<tr>
-							<td><i><center>Dental System</center></i><br/>
-						</tr>
-						<tr>
-							<td>Records
-						<ul>
-							<li><a href="dallrec.php"><button>All Records</button></a></li>
-							<li><a href="DRC.php"><button>College</button></a></li>
-							<li><a href="DRS.php"><button>Senior High</button></a></li>
-							<li><a href="DRE.php"><button class="emp">Employee</button></a></li>
-						</ul><br/>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="Logout.php"><center>Logout</center></a></td>
-						</tr>
-					</table>
-				</div>
+			<?php include(ROOT_DIR."/docsidenav.php");?>
 			<div class="data">
 				<h1 class="emp">&nbspEmployee</h1>
 					<table class = "bars">
 					<tr>
 						<td>
 					<form action="NRE.php" method="POST"><br/><br/><br/>
-						<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSearch: 
-							<input type="text"  id="search" name="search" placeholder="Search"/> <input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp<input type="submit" id="all" name="all" value="All"></p>
+						<p> 
+							<input type="text"  id="search" name="search" placeholder="Search"/> 
+							<br></br>
+							<input type="submit" id="filter" name="filter" value="Search">&nbsp&nbsp
+							<input type="submit" id="all" name="all" value="All"></p>
+							<br></br>
 					</form>
 						</td>
 					</tr>

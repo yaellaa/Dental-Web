@@ -13,7 +13,7 @@
 		<title>Senior High (Record)</title>
 	</head>
 	<body>
-		<link href="/styles/blend.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/blend.css" rel="stylesheet" type="text/css"/>
 <center>
 		<table>
 		<?php
@@ -76,9 +76,9 @@
 				echo "</table>";
 		}
 				echo "<br/><br/>";
-				echo "<a href=\"/patient/edit/shsedit.php?id=$_GET[id]\">Edit</a>";
+				echo "<a href=\"patient/edit/shsedit.php?id=$_GET[id]\">Edit</a>";
 				echo "&nbsp&nbsp&nbsp&nbsp";
-				echo "<a href=\"/forms/nurse/NRS.php\">Go back
+				echo "<a href=\"forms/nurse/NRS.php\">Go back
 				<script></a>";
 		?>
 </center>

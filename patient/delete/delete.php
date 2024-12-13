@@ -24,7 +24,7 @@
         echo "Error deleting records: " . mysqli_error($mysqli);
     }
 
-    header("Location:/patient/records/allrec.php");
+    header("Location:patient/records/allrec.php");
 
     mysqli_close($mysqli);
 ?>

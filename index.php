@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SDCA Dental Clinic</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -21,7 +21,7 @@
     </a>
 </div>
 <div class="hero-image" style="display: flex; justify-content: center; align-items: center; height: 50vh;">
-  <img src="slide1.jpg" alt="Person teeth" style="max-height: 100%; max-width: 100%; object-fit: cover;">
+  <img src="public/uploads/slide1.jpg" alt="Person teeth" style="max-height: 100%; max-width: 100%; object-fit: cover;">
 </div>
 <br>
     <!-- About Section -->

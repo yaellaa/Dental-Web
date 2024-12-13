@@ -3,12 +3,12 @@
 		<title>Login (Dental)</title>
 	</head>
 <body>
-		<link href="Login.css" type="text/css" rel="stylesheet"/>
+		<link href="styles/Login.css" type="text/css" rel="stylesheet"/>
 <center>
-	<img src ="banner.png"/>
+	<img src ="public/uploads/banner.png"/>
 	<br></br>
 	<div class ="login">
-		<form action="loginpro.php" method="POST">
+		<form action="app/auth/loginpro.php" method="POST">
 			<p>ID Number: &nbsp
 				<input type="text" id="u" name="u" placeholder="Enter ID Number"></p>
 			<p>Password: &nbsp&nbsp&nbsp

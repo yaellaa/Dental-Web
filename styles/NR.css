@@ -1,0 +1,214 @@
+:root {
+    /* Color Palette */
+    --highlight-color: #edd42f;
+    --text-color: #101010;
+    --light-text: rgb(237, 237, 237);
+    --border-color: #270202;
+    --shadow-color: #adaead;
+
+    --primary-color: #3b1414;
+    --secondary-color: #9f1515;
+    --accent-color: #ff3636;
+    --background-color: #fdfffd;
+
+    /* Transition Variables */
+    --transition-speed: 0.3s;
+}
+
+/* Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.con {
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Main Layout */
+.main {
+    display: flex;
+    box-shadow: 0 4px 10px rgba(173, 174, 173, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Navigation Styles */
+.nav {
+    width: 250px;
+    background-color: #f9f9f9;
+    border-right: 2px solid var(--primary-color);
+    padding: 20px 0;
+}
+
+.nav table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav td {
+    padding: 15px 10px;
+    transition: background-color var(--transition-speed) ease;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    transition: color var(--transition-speed) ease;
+}
+
+.nav td:hover {
+    background-color: rgba(20, 31, 59, 0.05);
+}
+
+.nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* Button Styles */
+button {
+    font-size: 16px;
+    background-color: var(--secondary-color);
+    color: var(--light-text);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 
+        background-color var(--transition-speed) ease,
+        transform var(--transition-speed) ease;
+    border-radius: 4px;
+}
+
+button.college,
+button.shs,
+button.emp {
+    background-color: var(--primary-color);
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Data Section */
+.data {
+    flex-grow: 1;
+    border: 2px solid var(--accent-color);
+    padding: 30px;
+    background-color: white;
+}
+
+/* Input Styles */
+.bars input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+    font-size: 16px;
+    padding: 8px 0;
+    outline: none;
+    transition: border-color var(--transition-speed) ease;
+}
+
+.bars input[type="text"]:focus {
+    border-bottom-color: var(--secondary-color);
+}
+
+/* Table Styles */
+.data th {
+    border-bottom: 2px solid var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgba(48, 148, 78, 0.05);
+}
+
+.data td {
+    text-align: center;
+    padding: 8px;
+}
+
+/* Heading Styles */
+h1.col, h1.shs, h1.emp {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: clamp(40px, 10vw, 80px);
+    color: var(--accent-color);
+    position: relative;
+    letter-spacing: -3px;
+    margin-bottom: 30px;
+}
+
+h1.col:after, 
+h1.shs:after, 
+h1.emp:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: var(--primary-color);
+    z-index: -1;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 
+        background-color var(--transition-speed) ease,
+        transform var(--transition-speed) ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .main {
+        flex-direction: column;
+    }
+    
+    .nav, .data {
+        width: 100%;
+    }
+
+    .nav table {
+        width: 100%;
+    }
+}
+
+/* Additional Responsive Improvements */
+@media screen and (max-width: 768px) {
+    .con {
+        margin: 10px;
+        padding: 0 10px;
+    }
+
+    h1.col, h1.shs, h1.emp {
+        font-size: clamp(30px, 8vw, 60px);
+    }
+}
